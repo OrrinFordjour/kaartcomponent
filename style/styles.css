@@ -18,9 +18,19 @@
 
 body {
   font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--Very-dark-blue);
+}
+
+.container {
+  background-color: var(--Dark-desaturated-blue);
+}
+
+h1 {
+  color: var(--White);
 }
 
 p {
+  color: var(--Slightly-transparent-white);
   font-size: 15px;
   line-height: 1.6;
 }

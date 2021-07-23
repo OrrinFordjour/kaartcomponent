@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,12 @@
         </ul>
 
       </div>
-      <div class="card-image"></div>
+      <div class="card-image">
+        <picture>
+          <source media="(min-width: 786px)" srcset="/images/image-header-desktop.jpg">
+          <img src="images/image-header-mobile.jpg" alt="card-image">
+        </picture>
+      </div>
     </div>
   </div>
 
