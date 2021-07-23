@@ -5,42 +5,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Frontend Mentor | Stats preview card component</title>
-
+  <!-- import google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
     rel="stylesheet">
 
+  <!-- import stylesheet -->
+  <link rel="stylesheet" href="/style/style.css">
 
-  <link rel="stylesheet" href="style/styles.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+
 </head>
 
 <body>
 
   <div class="container">
     <div class="card">
+      <!-- card text -->
       <div class="card-text">
-        <h1>Get insights that help your business grow. </h1>
-        <p>Discover the benefits of data analytics and make better decisions
-          regarding
-          revenue, customer experience, and overall efficiency.</p>
-        <ul>
-          <li>10k+ companies</li>
-          <li>314 templates</li>
-          <li>12m+ queries</li>
-        </ul>
-
+        <div class="black">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+          <div class="stats">
+            <div class="stat-block">
+              <div class="stat-num">10k+</div>
+              <stat-title>Companies</stat-title>
+            </div>
+            <div class="stat-block">
+              <div class="stat-num">314</div>
+              <stat-title>Templates</stat-title>
+            </div>
+            <div class="stat-block">
+              <div class="stat-num">12m+</div>
+              <stat-title>Queries</stat-title>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- card image -->
       <div class="card-image">
-        <picture>
-          <source media="(min-width: 786px)" srcset="/images/image-header-desktop.jpg">
-          <img src="images/image-header-mobile.jpg" alt="card-image">
-        </picture>
+        <img class="image-desktop" src="/images/image-header-desktop.jpg" alt="card-image">
+        <img class="image-mobile" src="/images/image-header-mobile.jpg" alt="card-image-mobile">
       </div>
     </div>
   </div>
-
+  <!-- Footer -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Orrin Fordjour</a>.
