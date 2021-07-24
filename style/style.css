@@ -115,6 +115,11 @@ body {
   margin-top: 0.8rem;
 }
 
+img {
+  height: 100%;
+  border-radius: 0 1rem 1rem 0;
+}
+
 .image-mobile {
   display: none;
 }
