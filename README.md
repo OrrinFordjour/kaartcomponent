@@ -22,3 +22,12 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
+
+
+
+
+
+- I did manage to meet the challenge, I have to be very honest that I had to think at least 10 times with some pieces .. but yes otherwise it is not a challenge. on to the next challenge. thanks, Frontend Mentor
+
+feedback is always welcome I'm not afraid of it.. oh tip for everyone W3school and youtube I found tips that I found very useful
+
